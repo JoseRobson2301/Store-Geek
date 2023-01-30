@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Gloria+Hallelujah&family=Josefin+Sans&family=Noto+Sans+Symbols+2&family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    font-family:'Josefin Sans';
+}
+
+body{
+    background-image: url(./58670.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cabeca a{
+    padding-left: 35vh;
+    color: aliceblue;
+    text-decoration: none;
+}
+#cabeca{
+    padding: 3.5vh;
+    background-color: #498eff;
+    
+}
+
+#h2-anuncio-exclusivo{
+    text-align: center;
+    padding: 3vh;
+    font-size: 20px;
+    background-color: #11293a;
+    color: aliceblue;
+}
+
+.ul-anuncio-exclusivo{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 3vh;
+}
+
+.p-anuncio-exclusivo{
+    text-align: center;
+    font-size: 3vh;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.p-anuncio-exclusivo:hover{
+    background-color: #0062ff;
+    transition: 0.5s;
+}
+.p-anuncio-exclusivo:active{
+    background-color: rgb(15, 140, 212);
+}
