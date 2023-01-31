@@ -52,3 +52,55 @@ body{
 .p-anuncio-exclusivo:active{
     background-color: rgb(15, 140, 212);
 }
+
+.img-anuncio-exclusivo{
+    border-radius: 7vh;
+    border: #498eff solid 1vh;
+    opacity: 93%;
+}
+
+.a-exc-anuncio{
+    text-decoration: none;
+    color: rgba(26, 126, 214, 0);
+    animation: a-animation 1000ms forwards;
+    position: relative;
+    top: -5rem;
+    left: 20%;
+    padding: 35px;;
+}
+.a-exc-anuncio:hover{
+    background-color: #0062ff;
+    position: relative;
+    padding: 4.7rem;
+    border-radius: 5vh;
+    opacity: 80%;
+    color: antiquewhite;
+    transition: 0.5s;
+    left: 2%;
+    top: -37%;
+}
+
+
+/*@keyframes a-animation {
+    
+    from {
+        background-color: gold;
+        position: relative;
+        top: -23rem;
+        left: 0.3rem;
+        padding: 4.7rem;
+        border-radius: 5vh;
+        opacity: 1%;
+    }
+
+    to {
+        background-color: rgb(0, 182, 238);
+        position: relative;
+        top: -8.4rem;
+        left: 0.3rem;
+        padding: 4.7rem;
+        border-radius: 5vh;
+        opacity: 90%;
+    }
+}
+*/
