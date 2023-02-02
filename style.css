@@ -6,7 +6,8 @@
 }
 
 body{
-    background-image: url(./58670.jpg);
+  /*  background-image: url(./58670.jpg); */
+    background-color: #252177;
     background-attachment:fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,10 +26,6 @@ body{
 #cabeca a:hover{
     transition: 0.5s;
     color: #00e1ff;
-}
-
-.p-anuncio-exclusivo{
-
 }
 
 #h2-anuncio-exclusivo{
@@ -52,21 +49,58 @@ body{
     text-align: center;
     font-size: 3vh;
     color: antiquewhite;
-    cursor: pointer;;
+    cursor: pointer;
 }
 .p-anuncio-exclusivo:hover{
-    background-color: #0062ff;
+    transition: 0.5s;
+    border-radius: 1rem;
+
+  /*  -webkit-box-shadow: 7px -5px 56px 6px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 7px -5px 56px 6px rgba(255, 255, 255, 0);
+    box-shadow: 7px -5px 56px 6px rgba(255, 255, 255, 0.97);  */
 }
 .p-anuncio-exclusivo:active{
     background-color: rgb(15, 140, 212);
 }
 
+.bnt-anuncio-exclusivo{
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 240px;
+    font-family:'Josefin Sans';
+    opacity: 85%;
+}
+.bnt-anuncio-exclusivo:hover{
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    font-family:'Josefin Sans';
+    opacity: 100%;
+}
+
 img{
-    opacity: 90%;
+    opacity: 85%;
     border-radius: 0.7rem;
+    margin: none;
+    padding: none;
 }
 
 img:hover{
-    width: 260px;
+    box-shadow: #0062ff 5rem ;
     transition: 0.5s;
+    opacity: 100%;
+
+    -webkit-box-shadow: 7px -5px 56px 6px rgba(26,130,199,0.97);
+    -moz-box-shadow: 7px -5px 56px 6px rgba(26,130,199,0.97);
+    box-shadow: 7px -5px 56px 6px rgba(255, 255, 255, 0.97);    
+}
+
+#h2-anuncio-normal{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    padding: 2vh;
 }
