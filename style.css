@@ -13,18 +13,27 @@ body{
 }
 
 #cabeca a{
-    padding-left: 35vh;
     color: aliceblue;
     text-decoration: none;
 }
 #cabeca{
-    padding: 3.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.8rem;
     background-color: #498eff;
-    
+}
+#cabeca a:hover{
+    transition: 0.5s;
+    color: #00e1ff;
+}
+
+.p-anuncio-exclusivo{
+
 }
 
 #h2-anuncio-exclusivo{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 3vh;
     font-size: 20px;
     background-color: #11293a;
@@ -32,9 +41,9 @@ body{
 }
 
 .ul-anuncio-exclusivo{
-    list-style: none;
     display: flex;
     justify-content: space-around;
+    list-style: none;
     position: relative;
     right: 3vh;
 }
@@ -43,64 +52,21 @@ body{
     text-align: center;
     font-size: 3vh;
     color: antiquewhite;
-    cursor: pointer;
+    cursor: pointer;;
 }
 .p-anuncio-exclusivo:hover{
     background-color: #0062ff;
-    transition: 0.5s;
 }
 .p-anuncio-exclusivo:active{
     background-color: rgb(15, 140, 212);
 }
 
-.img-anuncio-exclusivo{
-    border-radius: 7vh;
-    border: #498eff solid 1vh;
-    opacity: 93%;
+img{
+    opacity: 90%;
+    border-radius: 0.7rem;
 }
 
-.a-exc-anuncio{
-    text-decoration: none;
-    color: rgba(26, 126, 214, 0);
-    animation: a-animation 1000ms forwards;
-    position: relative;
-    top: -5rem;
-    left: 20%;
-    padding: 35px;;
-}
-.a-exc-anuncio:hover{
-    background-color: #0062ff;
-    position: relative;
-    padding: 4.7rem;
-    border-radius: 5vh;
-    opacity: 80%;
-    color: antiquewhite;
+img:hover{
+    width: 260px;
     transition: 0.5s;
-    left: 2%;
-    top: -37%;
 }
-
-
-/*@keyframes a-animation {
-    
-    from {
-        background-color: gold;
-        position: relative;
-        top: -23rem;
-        left: 0.3rem;
-        padding: 4.7rem;
-        border-radius: 5vh;
-        opacity: 1%;
-    }
-
-    to {
-        background-color: rgb(0, 182, 238);
-        position: relative;
-        top: -8.4rem;
-        left: 0.3rem;
-        padding: 4.7rem;
-        border-radius: 5vh;
-        opacity: 90%;
-    }
-}
-*/
