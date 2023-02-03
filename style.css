@@ -74,9 +74,9 @@ body{
 }
 .bnt-anuncio-exclusivo:hover{
     transition: 0.4s;
-    -webkit-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
-    box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    -webkit-box-shadow: 2px -3px 84px -32px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -3px 84px -32px rgba(0,0,0,0.75);
+    box-shadow: 2px -3px 84px -32px rgba(0,0,0,0.75);
     font-family:'Josefin Sans';
     opacity: 100%;
 }
@@ -93,15 +93,16 @@ img:hover{
     transition: 0.5s;
     opacity: 100%;
 
-    -webkit-box-shadow: 7px -5px 56px 6px rgba(26,130,199,0.97);
-    -moz-box-shadow: 7px -5px 56px 6px rgba(26,130,199,0.97);
-    box-shadow: 7px -5px 56px 6px rgba(255, 255, 255, 0.97);    
+    -webkit-box-shadow: 2px -3px 84px -32px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 2px -3px 84px -32px rgba(250, 250, 250, 0.75);
+    box-shadow: 2px -3px 84px -32px rgba(246, 246, 246, 0.75);
 }
 
 #h2-anuncio-normal{
     display: flex;
     justify-content: center;
-    background-color: gold;
+    color:rgb(246, 246, 246);
+    background-color: #11293a;
     padding: 2vh;
 }
 /*vivendo e apredendo*/
